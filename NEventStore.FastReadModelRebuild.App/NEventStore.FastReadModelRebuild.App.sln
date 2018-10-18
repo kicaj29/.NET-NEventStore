@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEventStore.FastReadModelRebuild.App", "NEventStore.FastReadModelRebuild.App\NEventStore.FastReadModelRebuild.App.csproj", "{EAABB7B6-B136-49D1-B873-C17A77E21456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEventStore.FastReadModelRebuild.Standard20", "NEventStore.FastReadModelRebuild.Standard20\NEventStore.FastReadModelRebuild.Standard20.csproj", "{A3D13EFB-A6E0-457F-899C-1468D2A932E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAABB7B6-B136-49D1-B873-C17A77E21456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAABB7B6-B136-49D1-B873-C17A77E21456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAABB7B6-B136-49D1-B873-C17A77E21456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAABB7B6-B136-49D1-B873-C17A77E21456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D13EFB-A6E0-457F-899C-1468D2A932E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D13EFB-A6E0-457F-899C-1468D2A932E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D13EFB-A6E0-457F-899C-1468D2A932E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D13EFB-A6E0-457F-899C-1468D2A932E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {556ADF69-6C91-45DC-9B51-3D7D2C20C124}
+	EndGlobalSection
+EndGlobal
