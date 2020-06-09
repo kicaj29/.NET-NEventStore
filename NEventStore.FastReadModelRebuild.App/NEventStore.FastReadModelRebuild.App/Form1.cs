@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,9 @@ namespace NEventStore.FastReadModelRebuild.App
 
         private void btnStartNEventStoreStandard20_Click(object sender, EventArgs e)
         {
+            SqlBulkCopy bulkCopy = new SqlBulkCopy("");
+            bulkCopy.WriteToServer();
+
             new NEventStoreSample().Start();
 
         }
